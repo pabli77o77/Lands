@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:infra="clr-namespace:Llands.Infraestructure" 
+             x:Class="Llands.App">
+    <Application.Resources>
+        <!-- xmlns:infra="clr-namespace:Llands.Infraestructure" 
+                quiere decir que cuando busque "infra", lo va a buscar en "Llands/Infraestructure" -->
+
+        <!-- Application resources dictionary -->
+        <ResourceDictionary>
+            <infra:InstanceLocator x:Key="Locator">
+                
+            </infra:InstanceLocator>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
